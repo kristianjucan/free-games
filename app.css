@@ -1,0 +1,79 @@
+body {
+  background-color: ivory;
+}
+
+#divTitles {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.description {
+  font-family: League Gothic, sans-serif;
+  font-size: 20px;
+}
+.platform {
+  font-family: League Gothic, sans-serif;
+  font-size: 20px;
+}
+
+#gameCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  margin-bottom: 40px;
+  padding: 30px;
+  width: 500px;
+}
+
+/* un mic efect atunci cand utilizatorul trece cu mouse-ul peste imagini*/
+.gameThumb:hover {
+  transform: scale(1.1);
+  z-index: 3 !important;
+}
+.gameTitle {
+  font-family: League Gothic, sans-serif;
+  font-size: 50px;
+  margin-top: -10px;
+}
+.gameThumb {
+  margin-bottom: 30px;
+  width: 90%;
+  transition: 1s !important;
+  border-radius: 50px;
+  box-shadow: 10px 10px 50px #bebebe, -20px -20px 60px #ffffff;
+}
+#title {
+  text-align: center;
+  font-family: League Gothic, sans-serif;
+  font-size: 50px;
+  color: aliceblue;
+  padding: 20px;
+  background-color: grey;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 100px;
+}
+.btn {
+  width: 200px;
+  background-color: lightsalmon;
+  border: 1px solid lightblue;
+  border-radius: 50px;
+  color: black;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-family: League Gothic, sans-serif;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: cornsilk;
+}
